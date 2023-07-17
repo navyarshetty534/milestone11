@@ -4,12 +4,12 @@ import Home from './Components/Home'
 import Menu from './Components/Menu'
 import About from './Components/About'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-import Navbar from './Components/Navbar'
+// import Navbar from './Components/Navbar'
 const App = () => {
   return (
     <div>
      <BrowserRouter>
-     <Navbar></Navbar>
+     {/* <Navbar></Navbar> */}
      <Routes>
 <Route path='/' element={<Home></Home>}></Route>
 <Route path='/about' element={<About></About>}></Route>
